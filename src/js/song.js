@@ -26,7 +26,7 @@ $(function () {
     });
 
     let audio = document.createElement('audio');
-    audio.src = 'https://dl.stream.qqmusic.qq.com/C400001AjnfP2g3gdz.m4a?vkey=BA5FFD14C3F7D8FD7EB3F5A8489A3EA29955F9FA8F12643725995B74F9DEE8DF7C67CDAD65350795FFB2061DC202C5C1AAC16C130C83FEB9&guid=225426600&uin=835383258&fromtag=66'
+    audio.src = '//ovxd333n6.bkt.clouddn.com/C400001AjnfP2g3gdz.m4a';
     audio.oncanplay = function () {
         audio.play();
     };
@@ -52,7 +52,7 @@ $(function () {
         });
         $('.disc-img3').css({
             'animation-play-state': 'running'
-        })
+        });
     });
 
 
