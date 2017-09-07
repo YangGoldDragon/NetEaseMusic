@@ -26,7 +26,7 @@ $(function () {
     });
 
     let audio = document.createElement('audio');
-    audio.src = '//ovxd333n6.bkt.clouddn.com/C400001AjnfP2g3gdz.m4a';
+    audio.src = '//dl.stream.qqmusic.qq.com/C400001AjnfP2g3gdz.m4a?fromtag=38&vkey=55A25B36373D2DE6688E2AC2C70C8AA95C2826D40AE5AB1CAEDCF62C80EE60B1A328C362C207AA8406C61500CA2DB6EE8AED20FE3CA9136D&guid=225426600';
     audio.oncanplay = function () {
         audio.play();
     };
