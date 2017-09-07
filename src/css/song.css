@@ -1,0 +1,153 @@
+/*init*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+
+/*header*/
+@keyframes discRotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.page{
+    background: transparent url("http://p4.music.126.net/u_LfZBnPcrXZQRW4Z6eDBQ==/109951163011166051.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    position: relative;
+}
+
+.song-pointer{
+    position: absolute;
+    left: 45%;
+    width: 24vw;
+    z-index: 2;
+}
+
+.song-disc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9.5vh;
+}
+
+.disc-img1{
+    width: 85vw;
+}
+
+.disc-img2{
+    position: absolute;
+    width: 85vw;
+    animation: discRotate 20s infinite linear;
+}
+
+.disc-img3{
+    position: absolute;
+    width: 52.5vw;
+    border-radius: 50%;
+    animation: discRotate 20s infinite linear;
+}
+
+.icon-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: rgba(0,0,0,.5);
+}
+
+.icon{
+    fill: white;
+    width: 10vw;
+    height: 10vw;
+    display: none;
+}
+
+.icon-show{
+    display: block;
+}
+
+
+
+
+/*main*/
+main{
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto;
+    color: white;
+}
+
+main h2{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+main .lines{
+    height: 84px;
+    overflow: hidden;
+}
+
+main .words,
+main p{
+    font-size: 14px;
+    line-height: 2;
+}
+
+main .words{
+
+}
+
+
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3vh;
+}
+footer a{
+    display: block;
+    padding: 9px 13vw;
+    font-size: 18px;
+    border-radius: 4px;
+    text-decoration: inherit;
+    margin: 0 2vw;
+    border: 1px solid #d43b32;
+}
+
+footer a:first-child{
+    color: #d43b32;
+}
+
+footer a:last-child{
+    background: #d43b32;
+    color: white;
+}
