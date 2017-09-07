@@ -9,6 +9,8 @@
     box-sizing: border-box;
 }
 
+html,body{overflow:hidden;overflow-y:auto;}
+
 
 /*header*/
 @keyframes discRotate {
