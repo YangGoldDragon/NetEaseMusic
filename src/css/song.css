@@ -41,12 +41,12 @@ header{
 .song-pointer{
     position: absolute;
     left: 45%;
+    top: 0;
     width: 24vw;
     z-index: 5;
 }
 
 .song-disc {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,6 +55,7 @@ header{
 
 .disc-img1{
     width: 72vw;
+    z-index: 1;
 }
 
 .disc-img2{
