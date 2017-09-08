@@ -10,7 +10,6 @@
 }
 
 html,body{
-    overflow:hidden;overflow-y:auto;
     font-size: 62.5%;
 }
 
@@ -52,7 +51,7 @@ header{
 }
 
 .disc-img1{
-    width: 85vw;
+    width: 72vw;
 }
 
 .disc-img2{
@@ -60,7 +59,7 @@ header{
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 85vw;
+    width: 72vw;
     animation: discRotate 20s infinite linear;
 }
 
@@ -69,7 +68,7 @@ header{
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 52.5vw;
+    width: 44.5vw;
     border-radius: 50%;
     animation: discRotate 20s infinite linear;
 }
