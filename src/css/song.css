@@ -109,7 +109,7 @@ main h2{
 }
 
 main .lines{
-    height: 15vh;
+    height: 84px;
     overflow: hidden;
 }
 
@@ -130,14 +130,11 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 3vh;
+    margin-top: 7vh;
 }
 footer a{
     display: block;
-    padding: 1.5vh 13vw;
+    padding: 2vh 13vw;
     font-size: 18px;
     border-radius: 4px;
     text-decoration: inherit;
