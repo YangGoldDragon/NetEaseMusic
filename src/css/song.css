@@ -47,11 +47,7 @@ header{
 }
 
 .song-disc {
-    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox; /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Chrome */
-    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 9.5vh;
@@ -59,6 +55,7 @@ header{
 
 .disc-img1{
     width: 72vw;
+    position: absolute;
     z-index: 1;
 }
 
