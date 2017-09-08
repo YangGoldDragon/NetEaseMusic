@@ -46,6 +46,7 @@ header{
 }
 
 .song-disc {
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,9 +59,6 @@ header{
 
 .disc-img2{
     position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
     width: 72vw;
     animation: discRotate 20s infinite linear;
     z-index: 2;
@@ -68,9 +66,6 @@ header{
 
 .disc-img3{
     position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
     width: 44.5vw;
     border-radius: 50%;
     animation: discRotate 20s infinite linear;
@@ -79,9 +74,6 @@ header{
 
 .icon-wrapper{
     position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
     z-index: 4;
     display: flex;
     justify-content: center;
