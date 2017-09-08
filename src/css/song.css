@@ -121,14 +121,9 @@ main .lines{
     overflow: hidden;
 }
 
-main .words,
 main p{
     font-size: 1.4rem;
     line-height: 2;
-}
-
-main .words{
-
 }
 
 
