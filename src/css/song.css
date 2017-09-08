@@ -9,7 +9,10 @@
     box-sizing: border-box;
 }
 
-html,body{overflow:hidden;overflow-y:auto;}
+html,body{
+    overflow:hidden;overflow-y:auto;
+    font-size: 62.5%;
+}
 
 
 /*header*/
@@ -105,17 +108,17 @@ main h2{
     overflow:hidden;
     margin-top: 5vh;
     margin-bottom: 2vh;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 main .lines{
-    height: 84px;
+    height: 7rem;
     overflow: hidden;
 }
 
 main .words,
 main p{
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 2;
 }
 
@@ -134,8 +137,8 @@ footer{
 }
 footer a{
     display: block;
-    padding: 2vh 13vw;
-    font-size: 18px;
+    padding: 1.5vh 13vw;
+    font-size: 1.8rem;
     border-radius: 4px;
     text-decoration: inherit;
     margin: 0 2vw;
