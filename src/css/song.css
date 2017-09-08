@@ -10,6 +10,7 @@
 }
 
 html,body{
+    overflow:hidden;overflow-y:auto;
     font-size: 62.5%;
 }
 
@@ -61,6 +62,7 @@ header{
     margin: 0 auto;
     width: 72vw;
     animation: discRotate 20s infinite linear;
+    z-index: 2;
 }
 
 .disc-img3{
@@ -71,10 +73,15 @@ header{
     width: 44.5vw;
     border-radius: 50%;
     animation: discRotate 20s infinite linear;
+    z-index: 3;
 }
 
 .icon-wrapper{
     position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 4;
     display: flex;
     justify-content: center;
     align-items: center;
