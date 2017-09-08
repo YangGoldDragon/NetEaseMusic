@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68588331-cffe-46f3-a0db-d34da4dac846" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/song.css" afterPath="$PROJECT_DIR$/src/css/song.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="song.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/song.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="143" column="12" lean-forward="false" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+            <state relative-caret-position="707">
+              <caret line="144" column="17" lean-forward="false" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -279,7 +278,7 @@
       <workItem from="1504645658089" duration="2072000" />
       <workItem from="1504648820890" duration="83000" />
       <workItem from="1504687218422" duration="5364000" />
-      <workItem from="1504705941219" duration="34987000" />
+      <workItem from="1504705941219" duration="35112000" />
     </task>
     <task id="LOCAL-00001" summary="no scrollBarX and scrollBarY">
       <created>1504811840287</created>
@@ -400,11 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504833514326</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="song-disc">
+      <created>1504833594871</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1504833594871</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58339000" />
+    <option name="totallyTimeSpent" value="58464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -695,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/song.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="143" column="12" lean-forward="false" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+        <state relative-caret-position="707">
+          <caret line="144" column="17" lean-forward="false" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
           <folding />
         </state>
       </provider>
