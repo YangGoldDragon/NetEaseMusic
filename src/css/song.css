@@ -36,21 +36,30 @@ html,body{
 
 header{
     position: relative;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .song-pointer{
     position: absolute;
     top: 0;
     left: 45%;
-    width: 24vw;
+    width: 17vw;
     z-index: 5;
 }
 
 .song-disc {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 17.5vw;
+    border: 2px solid red;
 }
 
 .disc-img1{
@@ -59,6 +68,11 @@ header{
 
 .disc-img2{
     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     width: 72vw;
     animation: discRotate 20s infinite linear;
     z-index: 2;
@@ -66,21 +80,30 @@ header{
 
 .disc-img3{
     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     width: 44.5vw;
     border-radius: 50%;
-    animation: discRotate 20s infinite linear;
     z-index: 3;
+    animation: discRotate 20s infinite linear;
 }
 
 .icon-wrapper{
     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     z-index: 4;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20vw;
     height: 20vw;
-    border: 2px solid white;
     border-radius: 50%;
     background: rgba(0,0,0,.5);
 }
@@ -105,19 +128,18 @@ main{
     width: 90vw;
     margin: 0 auto;
     color: white;
+    overflow: hidden;
 }
 
 main h2{
     white-space:nowrap;
     text-overflow:ellipsis;
     overflow:hidden;
-    margin-top: 5vh;
-    margin-bottom: 2vh;
     font-size: 1.8rem;
 }
 
 main .lines{
-    height: 7rem;
+    height: 8.4rem;
     overflow: hidden;
 }
 
