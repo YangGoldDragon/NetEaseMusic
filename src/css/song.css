@@ -103,13 +103,13 @@ main h2{
     white-space:nowrap;
     text-overflow:ellipsis;
     overflow:hidden;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
     font-size: 18px;
 }
 
 main .lines{
-    height: 84px;
+    height: 15vh;
     overflow: hidden;
 }
 
@@ -137,7 +137,7 @@ footer{
 }
 footer a{
     display: block;
-    padding: 9px 13vw;
+    padding: 1.5vh 13vw;
     font-size: 18px;
     border-radius: 4px;
     text-decoration: inherit;
