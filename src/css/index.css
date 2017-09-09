@@ -9,12 +9,24 @@
     box-sizing: border-box;
 }
 
-html,body{
-    overflow:hidden;overflow-y:auto;
-}
-
 li{
     list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/*public style*/
+section h3:first-child{
+    margin: 1.5rem 0;
+    border-left: 2px solid #d43c33;
+    padding: 0 0 0 1rem;
+    color: #333;
+    font-size: 1.7rem;
+    font-weight: normal;
+    line-height: 1;
 }
 
 
@@ -28,16 +40,165 @@ header{
 }
 
 header .logo{
-    width: 40%;
+    width: 45%;
 }
 
 header a {
     text-decoration: none;
     color: white;
-    font-size: 40px;
+    font-size: 1.4rem;
     display: block;
-    padding: 10px 25px;
+    padding: 0.35rem 0.7rem;
     background: transparent;
-    border: 2px solid white;
-    border-radius: 50px;
+    border: 1px solid white;
+    border-radius: 5rem;
+}
+
+
+/*nav*/
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    position: relative;
+}
+
+nav ul li{
+    flex: 1;
+}
+
+nav ul li span{
+    font-size: 1.5rem;
+    padding: 0.7rem 0.5rem;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.red-bottom{
+    border-bottom: 2px solid #d33a31;
+}
+
+
+/*section.recommend-playlist*/
+.recommend-playlist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recommend-playlist ul li{
+    position: relative;
+    width: calc(33.333333333333% - 2px);
+    margin-bottom: 1.3rem;
+}
+
+.recommend-playlist ul li .icon-earphone{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 2;
+    color: white;
+}
+
+.recommend-playlist ul li .icon-earphone .icon{
+    fill: white;
+    width: 1rem;
+    height: 1rem;
+}
+
+.recommend-playlist ul li img{
+    width: 100%;
+}
+
+.recommend-playlist ul li p{
+    padding: 0 0.5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+
+/*lastest-Music*/
+.lastest-music ul li{
+    position: relative;
+    padding: 0.9rem 0;
+    margin-left: 1rem;
+    border-bottom: 1px solid rgba(192,192,192,.3);
+}
+
+.lastest-music ul li h4{
+    font-size: 1.7rem;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lastest-music ul li p{
+    font-size: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 0.5rem;
+    color: #888;
+    display: flex;
+    align-items: center;
+}
+
+.lastest-music ul li p .icon{
+    fill: #d43c33;
+    width: 5vw;
+    height: 5vw;
+}
+
+.lastest-music ul li a{
+    position: absolute;
+    top: 0;
+    right: 3vw;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.lastest-music ul li a .icon{
+    fill: gray;
+    width: 9vw;
+    height: 9vw;
+}
+
+/*footer*/
+footer{
+    background: url("//s3.music.126.net/m/s/img/recommand_bg_2x.png?d045fafc60e017b653f8065a87496922");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+footer svg{
+    width: 80%;
+    height: 14vw;
+    margin: 15vw 0 5vw 0;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: #d33a31;
+    border: 1px solid #d33a31;
+    border-radius: 38px;
+    font-size: 1.6rem;
+    padding: 0.8rem 1.8rem;
+    text-align: center;
+}
+
+footer p{
+    font-size: 1rem;
+    color: #888888;
+    transform: scale(.75);
+    line-height: 2;
 }
