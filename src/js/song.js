@@ -26,9 +26,9 @@ $(function () {
     });
 
     let audio = document.createElement('audio');
-    audio.src = '//dl.stream.qqmusic.qq.com/C400001AjnfP2g3gdz.m4a?fromtag=38&vkey=55A25B36373D2DE6688E2AC2C70C8AA95C2826D40AE5AB1CAEDCF62C80EE60B1A328C362C207AA8406C61500CA2DB6EE8AED20FE3CA9136D&guid=225426600';
+    audio.src = '//ovxd333n6.bkt.clouddn.com/C400001AjnfP2g3gdz.m4a';
     audio.oncanplay = function () {
-        audio.play();
+        audio.play();  //苹果出于保护用户的目的，禁止加载资源之后自动播放，巨坑。
     };
 
     $('.icon-pause').on('click',function () {
@@ -36,11 +36,14 @@ $(function () {
         $(this).removeClass('icon-show');
         $('.icon-play').addClass('icon-show');
         $('.disc-img2').css({
-            'animation-play-state': 'paused'
+            'animation-play-state': 'paused',
+            '-webkit-animation-play-state': 'paused'
         });
         $('.disc-img3').css({
-            'animation-play-state': 'paused'
-        })
+            'animation-play-state': 'paused',
+            '-webkit-animation-play-state': 'paused'
+        });
+        $('.song-pointer').addClass('song-pause');
     });
 
     $('.icon-play').on('click',function () {
@@ -48,12 +51,13 @@ $(function () {
         $(this).removeClass('icon-show');
         $('.icon-pause').addClass('icon-show');
         $('.disc-img2').css({
-            'animation-play-state': 'running'
+            'animation-play-state': 'running',
+            '-webkit-animation-play-state': 'running'
         });
         $('.disc-img3').css({
-            'animation-play-state': 'running'
+            'animation-play-state': 'running',
+            '-webkit-animation-play-state': 'running'
         });
+        $('.song-pointer').removeClass('song-pause');
     });
-
-
 });

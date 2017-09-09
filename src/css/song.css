@@ -10,7 +10,6 @@
 }
 
 html,body{
-    overflow:hidden;overflow-y:auto;
     font-size: 62.5%;
 }
 
@@ -36,7 +35,7 @@ html,body{
 
 header{
     position: relative;
-    min-height: 60vh;
+    min-height: 58vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +49,12 @@ header{
     z-index: 5;
 }
 
+.song-pause{
+    transform: rotate(-30deg);
+    top: -2vh;
+    left: 50%;
+}
+
 .song-disc {
     position: absolute;
     left: 0;
@@ -59,7 +64,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 
 .disc-img1{
@@ -80,12 +84,14 @@ header{
 
 .disc-img3{
     position: absolute;
-    left: 0;
-    right: 0;
     top: 0;
+    right: 0;
     bottom: 0;
+    left: 0;
     margin: auto;
+    display: block;
     width: 44.5vw;
+    height: 44.5vw;
     border-radius: 50%;
     z-index: 3;
     animation: discRotate 20s infinite linear;
@@ -155,12 +161,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 3vh;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    margin: 5vh auto 0;
 }
+
 footer a{
     display: block;
     padding: 1.5vh 13vw;
