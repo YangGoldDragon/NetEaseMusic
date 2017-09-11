@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68588331-cffe-46f3-a0db-d34da4dac846" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/index.css" afterPath="$PROJECT_DIR$/src/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/song.css" afterPath="$PROJECT_DIR$/src/css/song.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/song.js" afterPath="$PROJECT_DIR$/src/js/song.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,11 +41,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="songs.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/songs.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="138" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="138" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="song.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/song.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+            <state relative-caret-position="92">
+              <caret line="28" column="143" lean-forward="false" selection-start-line="28" selection-start-column="143" selection-end-line="28" selection-end-column="143" />
               <folding />
             </state>
           </provider>
@@ -97,10 +104,10 @@
         <option value="$PROJECT_DIR$/src/lyric.json" />
         <option value="$PROJECT_DIR$/src/song.html" />
         <option value="$PROJECT_DIR$/src/css/song.css" />
-        <option value="$PROJECT_DIR$/src/songs.json" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/css/index.css" />
         <option value="$PROJECT_DIR$/src/js/index.js" />
+        <option value="$PROJECT_DIR$/src/songs.json" />
         <option value="$PROJECT_DIR$/src/js/song.js" />
       </list>
     </option>
@@ -290,7 +297,7 @@
       <workItem from="1504955118932" duration="139000" />
       <workItem from="1504955369490" duration="1449000" />
       <workItem from="1504961421386" duration="17595000" />
-      <workItem from="1505049464954" duration="3595000" />
+      <workItem from="1505049464954" duration="3791000" />
     </task>
     <task id="LOCAL-00001" summary="no scrollBarX and scrollBarY">
       <created>1504811840287</created>
@@ -502,17 +509,24 @@
       <option name="project" value="LOCAL" />
       <updated>1504998953922</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="audio添加crossOrigin属性，进入页面自动播放">
+      <created>1505142495191</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1505142495191</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107586000" />
+    <option name="totallyTimeSpent" value="107782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -567,7 +581,8 @@
     <MESSAGE value="song-disc" />
     <MESSAGE value="animation and song-pointer" />
     <MESSAGE value="complete index.html and index.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete index.html and index.css" />
+    <MESSAGE value="audio添加crossOrigin属性，进入页面自动播放" />
+    <option name="LAST_COMMIT_MESSAGE" value="audio添加crossOrigin属性，进入页面自动播放" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,6 +602,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3749">
           <caret line="163" column="13" lean-forward="false" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -609,6 +625,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3749">
           <caret line="163" column="13" lean-forward="false" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,6 +648,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3749">
           <caret line="163" column="13" lean-forward="false" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -653,6 +671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3749">
           <caret line="163" column="13" lean-forward="false" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -683,6 +702,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2829">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -697,6 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1357">
           <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -711,6 +732,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -739,6 +761,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1909">
           <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,6 +783,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -788,6 +812,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -816,6 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,6 +863,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
           <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -851,6 +878,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,6 +914,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3133">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -893,14 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="732">
           <caret line="42" column="62" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/songs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="143" lean-forward="false" selection-start-line="11" selection-start-column="143" selection-end-line="11" selection-end-column="143" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="181" column="10" lean-forward="true" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -937,10 +950,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/songs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="138" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="138" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="181" column="10" lean-forward="true" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/song.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        <state relative-caret-position="92">
+          <caret line="28" column="143" lean-forward="false" selection-start-line="28" selection-start-column="143" selection-end-line="28" selection-end-column="143" />
           <folding />
         </state>
       </provider>

@@ -26,7 +26,7 @@ $(function () {
     });
 
     let audio = document.createElement('audio');
-    audio.src = 'https://ovxd333n6.bkt.clouddn.com/C400001AjnfP2g3gdz.m4a';
+    audio.src = '//m10.music.126.net/20170911105225/50b510df203c48f3ae56392199221390/ymusic/f239/a9c8/927d/9bffb3da2e579311563dd705af2c0f2d.mp3';
     audio.crossOrigin = "anonymous";
     audio.oncanplay = function () {
         audio.play();  //苹果出于保护用户的目的，禁止加载资源之后自动播放，巨坑。
