@@ -27,6 +27,7 @@ $(function () {
 
     let audio = document.createElement('audio');
     audio.src = 'https://ovxd333n6.bkt.clouddn.com/C400001AjnfP2g3gdz.m4a';
+    audio.crossOrigin = "anonymous";
     audio.oncanplay = function () {
         audio.play();  //苹果出于保护用户的目的，禁止加载资源之后自动播放，巨坑。
     };

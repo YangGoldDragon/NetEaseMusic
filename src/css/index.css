@@ -17,6 +17,9 @@ html{
     font-size: 62.5%;
 }
 
+a{
+    -webkit-tap-highlight-color:rgba(0,0,0,0)
+}
 
 /*public style*/
 section h3:first-child{
@@ -167,6 +170,13 @@ nav ul li span{
     fill: gray;
     width: 9vw;
     height: 9vw;
+}
+
+.lastest-music .loading{
+    width: 20vw;
+    height: 20vw;
+    display: block;
+    margin: 0 auto;
 }
 
 /*footer*/
