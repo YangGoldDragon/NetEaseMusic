@@ -54,8 +54,8 @@
       <file leaf-file-name="song.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/song.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="28" column="143" lean-forward="false" selection-start-line="28" selection-start-column="143" selection-end-line="28" selection-end-column="143" />
+            <state relative-caret-position="230">
+              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -297,7 +297,7 @@
       <workItem from="1504955118932" duration="139000" />
       <workItem from="1504955369490" duration="1449000" />
       <workItem from="1504961421386" duration="17595000" />
-      <workItem from="1505049464954" duration="3791000" />
+      <workItem from="1505049464954" duration="4018000" />
     </task>
     <task id="LOCAL-00001" summary="no scrollBarX and scrollBarY">
       <created>1504811840287</created>
@@ -516,11 +516,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505142495191</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="测试crossOrigin属性是否成功">
+      <created>1505142658894</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1505142658894</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107782000" />
+    <option name="totallyTimeSpent" value="108009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -582,7 +589,8 @@
     <MESSAGE value="animation and song-pointer" />
     <MESSAGE value="complete index.html and index.css" />
     <MESSAGE value="audio添加crossOrigin属性，进入页面自动播放" />
-    <option name="LAST_COMMIT_MESSAGE" value="audio添加crossOrigin属性，进入页面自动播放" />
+    <MESSAGE value="测试crossOrigin属性是否成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试crossOrigin属性是否成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -968,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/song.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="28" column="143" lean-forward="false" selection-start-line="28" selection-start-column="143" selection-end-line="28" selection-end-column="143" />
+        <state relative-caret-position="230">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>
