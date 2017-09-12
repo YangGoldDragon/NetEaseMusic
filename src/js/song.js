@@ -2,14 +2,7 @@
  * Created by 金龙 on 2017/9/5.
  */
 $(function () {
-    let id = location.search.match(/\bid=([^&]*)/)[1];
-    $.get('./songs.json').then(function (response) {
-        let songs = response;
-        if(typeof songs === 'string'){
-            songs = songs.split('/^},/');
-        }
-        let song = songs.filter((s)=>{return s.id === id})[0];
-        let {url} = song;
+    function playInit(url) {
         let audio = document.createElement('audio');
         audio.src = url;
         audio.oncanplay = function () {
@@ -44,10 +37,11 @@ $(function () {
             });
             $('.song-pointer').removeClass('song-pause');
         });
+    }
 
-    });
-    $.get('./lyric.json').then(function (object) {
-        let {lyric} = object;
+    function textInit(name, singer, lyric) {
+        $('#name').text(name);
+        $('#singer').text(singer);
         let lyricArr = lyric.split('\n');
         let regex = /^\[(.+)\](.*)$/;
         lyricArr = lyricArr.map(function (cur, idx) {
@@ -67,5 +61,26 @@ $(function () {
             $p.attr('data-time', 'cur.time').text(cur.words);
             $words.append($p);
         })
+    }
+
+    function imagesInit(bg, disc) {
+        $('.page').css({
+            'background': 'transparent url("'+bg+'") no-repeat'
+        });
+        document.querySelector('.disc-img3').src = disc;
+    }
+
+    let id = location.search.match(/\bid=([^&]*)/)[1];
+    $.get('./songs.json').then(function (response) {
+        let songs = response;
+        if(typeof songs === 'string'){
+            songs = songs.split('/^},/');
+        }
+        let song = songs.filter((s)=>{return s.id === id})[0];
+        let {name, singer, bg, disc, url, lyric} = song;
+
+        playInit.call(undefined, url);
+        textInit.apply(undefined,[name, singer, lyric]);
+        imagesInit.call(undefined, bg, disc);
     });
 });
