@@ -62,31 +62,6 @@ $(function () {
                 });
             }
         },300);
-
-/*
-        setInterval(()=>{
-            let seconds = audio.currentTime
-            let munites = ~~(seconds / 60)
-            let left = seconds - munites * 60
-            let time = `${pad(munites)}:${pad(left)}`
-            let $lyric = $('.words > p')
-            let $whichLine
-            for (let i=0;i<$lyric.length;i++){
-            let currentTime = $lyric.eq(i).attr('data-time')
-            let nextLineTime = $lyric.eq(i+1).attr('data-time')
-            if ($lyric[i+1] !== undefined && currentTime < time && nextLineTime > time){
-                $whichLine = $lyric.eq(i)
-            }
-        }
-        if($whichLine){
-            $whichLine.addClass('active').prev().removeClass('active')
-            let top = $whichLine.offset().top
-            let lineTop = $('.lyric').offset().top
-            let delta = top - lineTop - $('.lines').height()/3
-            $('.lyric').css('transform',`translateY(-${delta}px)`)
-        }
-    },300)
-*/
     }
 
 
