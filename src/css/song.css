@@ -168,6 +168,12 @@ main .lines{
 main p{
     font-size: 1.4rem;
     line-height: 2;
+    color: hsla(0,0%,100%,.6);
+
+}
+
+.active{
+    color: white;
 }
 
 

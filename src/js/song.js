@@ -37,6 +37,62 @@ $(function () {
             });
             $('.song-pointer').removeClass('song-pause');
         });
+
+        /*滚动歌词*/
+            setInterval(()=>{
+            let seconds = audio.currentTime;
+            let minutes = ~~(seconds / 60);
+            let leftSeconds = seconds - minutes * 60;
+            let time = pad(minutes) + ':' + pad(leftSeconds);
+            let $curP;
+            let $p = $('.words > p');
+            for(let i = 0; i < $p.length; i++){
+                if(time > $p.eq(i).attr('data-time') && time < $p.eq(i+1).attr('data-time') && $p[i+1] !== undefined){
+                    $curP = $p.eq(i);
+                    break;
+                }
+            }
+            if($curP){
+                $curP.addClass('active').prev().removeClass('active');
+                let curPTop = $curP.offset().top;
+                let wordsTop = $('.words').offset().top;
+                let pMove = curPTop - wordsTop - $('.lines').height()/3;
+                $('.words').css({
+                    'transform': 'translateY(-'+pMove+'px)'
+                });
+            }
+        },300);
+
+/*
+        setInterval(()=>{
+            let seconds = audio.currentTime
+            let munites = ~~(seconds / 60)
+            let left = seconds - munites * 60
+            let time = `${pad(munites)}:${pad(left)}`
+            let $lyric = $('.words > p')
+            let $whichLine
+            for (let i=0;i<$lyric.length;i++){
+            let currentTime = $lyric.eq(i).attr('data-time')
+            let nextLineTime = $lyric.eq(i+1).attr('data-time')
+            if ($lyric[i+1] !== undefined && currentTime < time && nextLineTime > time){
+                $whichLine = $lyric.eq(i)
+            }
+        }
+        if($whichLine){
+            $whichLine.addClass('active').prev().removeClass('active')
+            let top = $whichLine.offset().top
+            let lineTop = $('.lyric').offset().top
+            let delta = top - lineTop - $('.lines').height()/3
+            $('.lyric').css('transform',`translateY(-${delta}px)`)
+        }
+    },300)
+*/
+    }
+
+
+
+    function pad(number) {
+        return number >= 10 ? number + '' : '0' + number;
     }
 
     function textInit(name, singer, lyric) {
@@ -58,7 +114,7 @@ $(function () {
         lyricArr.map(function (cur) {
             if(!cur){return};
             let $p = $('<p></p>');
-            $p.attr('data-time', 'cur.time').text(cur.words);
+            $p.attr('data-time', ''+cur.time+'').text(cur.words);
             $words.append($p);
         })
     }
