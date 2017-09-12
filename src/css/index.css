@@ -125,14 +125,17 @@ nav ul li span{
 
 
 /*lastest-Music*/
-.lastest-music ul li{
+.lastest-music ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
     position: relative;
     padding: 0.9rem 0;
     margin-left: 1rem;
     border-bottom: 1px solid rgba(192,192,192,.3);
 }
 
-.lastest-music ul li h4{
+.lastest-music ul li a h4{
     font-size: 1.7rem;
     font-weight: normal;
     overflow: hidden;
@@ -140,7 +143,7 @@ nav ul li span{
     white-space: nowrap;
 }
 
-.lastest-music ul li p{
+.lastest-music ul li a p{
     font-size: 1.2rem;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -151,25 +154,20 @@ nav ul li span{
     align-items: center;
 }
 
-.lastest-music ul li p .icon{
+.lastest-music ul li a p .icon{
     fill: #d43c33;
     width: 5vw;
     height: 5vw;
 }
 
-.lastest-music ul li a{
-    position: absolute;
-    top: 0;
-    right: 3vw;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-}
-
-.lastest-music ul li a .icon{
+.lastest-music ul li a .btn{
     fill: gray;
     width: 9vw;
     height: 9vw;
+    position: absolute;
+    top: 50%;
+    right: 3vw;
+    transform: translateY(-50%);
 }
 
 .lastest-music .loading{
