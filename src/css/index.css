@@ -22,7 +22,8 @@ a{
 }
 
 /*public style*/
-section h3:first-child{
+.recommend-playlist > h3:first-child,
+.lastest-music > h3:first-child{
     margin: 1.5rem 0;
     border-left: 2px solid #d43c33;
     padding: 0 0 0 1rem;
@@ -76,11 +77,23 @@ nav ul li span{
     font-size: 1.5rem;
     padding: 0.7rem 0.5rem;
     display: inline-block;
-    margin-top: 2px;
 }
 
 .red-bottom{
     border-bottom: 2px solid #d33a31;
+    margin-top: 2px;
+}
+
+
+/*
+   tab-content
+*/
+.tab-content > li{
+    display: none;
+}
+
+.tab-content > li.tab-active{
+    display: block;
 }
 
 
@@ -210,3 +223,66 @@ footer p{
     transform: scale(.75);
     line-height: 2;
 }
+
+
+/*hotSongsList*/
+.hotSongsList .headBackground{
+    background: url("../images/hotSonsBg1.jpg") no-repeat;
+    height: 23vh;
+    position: relative;
+}
+
+.hotSongsList .headBackground .hotSongsBg2{
+    background: url("../images/hotSongsBg2.jpg") no-repeat;
+    background-position: -24px -25px;
+    background-size: 166px 97px;
+    width: 60vw;
+    height: 15vh;
+    z-index: 999;
+    position: absolute;
+    left: 5vw;
+    top: 3vh;
+}
+
+.hotSongsList .headBackground p{
+    position: absolute;
+    top: 16vh;
+    left: 5vw;
+    color: hsla(0,0%,100%,.8);
+    z-index: 2;
+}
+
+.hotSongsList #hotSongs > li{
+    margin-left: 2rem;
+}
+
+.hotSongsList #hotSongs > li a h3{
+    position: absolute;
+    left: -3rem;
+    top: 0;
+    color: #999;
+    font-size: 1.7rem;
+    font-weight: normal;
+    width: 3rem;
+    height: 100%;
+    line-height: 4;
+    text-align: center;
+}
+
+.hotSongsList #hotSongs > li:first-child a h3,
+.hotSongsList #hotSongs > li:nth-child(2) a h3,
+.hotSongsList #hotSongs > li:nth-child(3) a h3{
+    color: #d33a31;
+}
+
+.hotSongsList .allList{
+    text-align: center;
+    padding: 1.7rem;
+}
+
+.hotSongsList a{
+    color: #999;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
