@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68588331-cffe-46f3-a0db-d34da4dac846" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/audio/1.mp3" afterPath="$PROJECT_DIR$/src/audio/1.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/audio/6.mp3" afterPath="$PROJECT_DIR$/src/audio/6.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/1bg.png" afterPath="$PROJECT_DIR$/src/images/1bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/1disc.jpg" afterPath="$PROJECT_DIR$/src/images/1disc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/6bg.png" afterPath="$PROJECT_DIR$/src/images/6bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/6disc.jpg" afterPath="$PROJECT_DIR$/src/images/6disc.jpg" />
+    <list default="true" id="68588331-cffe-46f3-a0db-d34da4dac846" name="Default" comment="更好图片和音频">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
@@ -23,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="82" column="44" lean-forward="false" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+            <state relative-caret-position="666">
+              <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -92,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="songs.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="songs.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/songs.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
@@ -145,8 +139,8 @@
         <option value="$PROJECT_DIR$/src/page3.json" />
         <option value="$PROJECT_DIR$/src/js/index.js" />
         <option value="$PROJECT_DIR$/src/css/index.css" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/songs.json" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -320,7 +314,7 @@
       <workItem from="1504955369490" duration="1449000" />
       <workItem from="1504961421386" duration="17595000" />
       <workItem from="1505049464954" duration="28515000" />
-      <workItem from="1505225139098" duration="34542000" />
+      <workItem from="1505225139098" duration="34657000" />
     </task>
     <task id="LOCAL-00001" summary="no scrollBarX and scrollBarY">
       <created>1504811840287</created>
@@ -637,16 +631,24 @@
       <option name="project" value="LOCAL" />
       <updated>1505328523182</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="更好图片和音频">
+      <created>1505329048406</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1505329048406</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167048000" />
+    <option name="totallyTimeSpent" value="167163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -712,7 +714,8 @@
     <MESSAGE value="songs.json" />
     <MESSAGE value="完成热歌榜页面" />
     <MESSAGE value="增加热歌榜图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加热歌榜图片" />
+    <MESSAGE value="更好图片和音频" />
+    <option name="LAST_COMMIT_MESSAGE" value="更好图片和音频" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1033,6 +1036,22 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/songs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="236" column="37" lean-forward="true" selection-start-line="236" selection-start-column="37" selection-end-line="236" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1046,31 +1065,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="236" column="37" lean-forward="true" selection-start-line="236" selection-start-column="37" selection-end-line="236" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="82" column="44" lean-forward="false" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        <state relative-caret-position="666">
+          <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#section#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/songs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
