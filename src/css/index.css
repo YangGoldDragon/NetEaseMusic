@@ -227,13 +227,13 @@ footer p{
 
 /*hotSongsList*/
 .hotSongsList .headBackground{
-    background: url("images/hotSonsBg1.jpg") no-repeat;
+    background: url("../images/hotSonsBg1.jpg") no-repeat;
     height: 25vh;
     position: relative;
 }
 
 .hotSongsList .headBackground .hotSongsBg2{
-    background: url("images/hotSongsBg2.jpg") no-repeat;
+    background: url("../images/hotSongsBg2.jpg") no-repeat;
     background-position: -24px -25px;
     background-size: 166px 97px;
     width: 60vw;
