@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68588331-cffe-46f3-a0db-d34da4dac846" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/二维码.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/recommendSongList.css" afterPath="$PROJECT_DIR$/src/css/recommendSongList.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -332,14 +332,7 @@
       <workItem from="1505049464954" duration="28515000" />
       <workItem from="1505225139098" duration="44079000" />
       <workItem from="1505412270117" duration="20487000" />
-      <workItem from="1505546813163" duration="7876000" />
-    </task>
-    <task id="LOCAL-00001" summary="no scrollBarX and scrollBarY">
-      <created>1504811840287</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1504811840287</updated>
+      <workItem from="1505546813163" duration="8249000" />
     </task>
     <task id="LOCAL-00002" summary="change src">
       <created>1504814212465</created>
@@ -677,17 +670,23 @@
       <option name="project" value="LOCAL" />
       <updated>1505554207864</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="修改推荐歌单页面细节部分">
+      <created>1505554711655</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1505554711655</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204948000" />
+    <option name="totallyTimeSpent" value="205321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -731,7 +730,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change src" />
     <MESSAGE value="index" />
     <MESSAGE value="audio.src" />
     <MESSAGE value="height" />
@@ -756,7 +754,8 @@
     <MESSAGE value="更好图片和音频" />
     <MESSAGE value="更新数据库songs.json" />
     <MESSAGE value="完成推荐歌单页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成推荐歌单页面" />
+    <MESSAGE value="修改推荐歌单页面细节部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改推荐歌单页面细节部分" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
