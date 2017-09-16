@@ -134,24 +134,27 @@ main .songslist > h4{
 }
 
 /*#recomendSongList*/
-#recomendSongList > h3:first-child{
-    margin: 1.5rem 0;
-    border-left: 2px solid #d43c33;
-    padding: 0 0 0 1rem;
-    color: #333;
-    font-size: 1.7rem;
-    font-weight: normal;
-    line-height: 1;
-}
-
 main .songslist ul li a{
     display: block;
     color: black;
     text-decoration: none;
     position: relative;
     padding: 0.9rem 0;
-    margin-left: 1rem;
+    margin-left: 3rem;
     border-bottom: 1px solid rgba(192,192,192,.3);
+}
+
+main .songslist ul li a > h3:first-child{
+    position: absolute;
+    top: 0;
+    left: -2.5rem;
+    bottom: 0;
+    margin: auto;
+    font-size: 1.4rem;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
 }
 
 main .songslist ul li a h4{
