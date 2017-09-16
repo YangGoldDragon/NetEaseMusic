@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="68588331-cffe-46f3-a0db-d34da4dac846" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/recommendSongList.css" afterPath="$PROJECT_DIR$/src/css/recommendSongList.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/recommendSongList.html" afterPath="$PROJECT_DIR$/src/recommendSongList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recommendSongList.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recommendSongList.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/recommendSongList.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="149" column="14" lean-forward="false" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
+            <state relative-caret-position="685">
+              <caret line="157" column="1" lean-forward="true" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,13 +66,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+            <state relative-caret-position="548">
+              <caret line="136" column="40" lean-forward="true" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#17798#17804#0" expanded="true" />
                 <element signature="n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -146,10 +146,10 @@
         <option value="$PROJECT_DIR$/src/css/song.css" />
         <option value="$PROJECT_DIR$/src/song.html" />
         <option value="$PROJECT_DIR$/src/js/index.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/css/index.css" />
         <option value="$PROJECT_DIR$/src/recommendSongList.html" />
         <option value="$PROJECT_DIR$/src/css/recommendSongList.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -331,14 +331,7 @@
       <workItem from="1505225139098" duration="44079000" />
       <workItem from="1505412270117" duration="20487000" />
       <workItem from="1505546813163" duration="8850000" />
-      <workItem from="1505581545005" duration="822000" />
-    </task>
-    <task id="LOCAL-00003" summary="index">
-      <created>1504826243505</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1504826243505</updated>
+      <workItem from="1505581545005" duration="1186000" />
     </task>
     <task id="LOCAL-00004" summary="audio.src">
       <created>1504828422473</created>
@@ -676,11 +669,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505555086148</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="修复recommendSongList数字序列号">
+      <created>1505582419081</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1505582419082</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206744000" />
+    <option name="totallyTimeSpent" value="207108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="648" y="0" width="1059" height="1047" extended-state="0" />
@@ -712,7 +712,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="audio.src" />
     <MESSAGE value="height" />
     <MESSAGE value="index css" />
     <MESSAGE value="index html" />
@@ -737,7 +736,8 @@
     <MESSAGE value="完成推荐歌单页面" />
     <MESSAGE value="修改推荐歌单页面细节部分" />
     <MESSAGE value="增加二维码扫描" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加二维码扫描" />
+    <MESSAGE value="修复recommendSongList数字序列号" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复recommendSongList数字序列号" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1016,6 +1016,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/recommendSongList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="157" column="1" lean-forward="true" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/recommendSongList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -1028,20 +1036,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+        <state relative-caret-position="548">
+          <caret line="136" column="40" lean-forward="true" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#17798#17804#0" expanded="true" />
             <element signature="n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/recommendSongList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="149" column="14" lean-forward="false" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
