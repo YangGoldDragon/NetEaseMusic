@@ -224,7 +224,7 @@ footer > a{
 
 footer > p{
     font-size: 1rem;
-    color: #888888;
+    color: #888888 !important;
     transform: scale(.75);
     line-height: 2;
 }
