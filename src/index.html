@@ -30,64 +30,76 @@
                 <h3>推荐歌单</h3>
                 <ul>
                     <li>
-                        <img src="./images/10disc.jpg" alt="">
-                        <p>走在路上如何傲娇而不失体面地拒绝办卡</p>
-                        <div class="icon-earphone">
-                            <svg class="icon">
-                                <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
-                            </svg>
-                            <span>209.4万</span>
-                        </div>
+                        <a href="./recommendSongList.html">
+                            <img src="./images/10disc.jpg" alt="">
+                            <p>走在路上如何傲娇而不失体面地拒绝办卡</p>
+                            <div class="icon-earphone">
+                                <svg class="icon">
+                                    <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
+                                </svg>
+                                <span>209.4万</span>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <img src="./images/9disc.jpg" alt="">
-                        <p>• 另类摇滚｜Girls & Boys, 总有你的爱</p>
-                        <div class="icon-earphone">
-                            <svg class="icon">
-                                <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
-                            </svg>
-                            <span>68万</span>
-                        </div>
+                        <a href="./recommendSongList.html">
+                            <img src="./images/9disc.jpg" alt="">
+                            <p>• 另类摇滚｜Girls & Boys, 总有你的爱</p>
+                            <div class="icon-earphone">
+                                <svg class="icon">
+                                    <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
+                                </svg>
+                                <span>68万</span>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <img src="./images/8disc.jpg" alt="">
-                        <p>【华语】你说风里有诗句</p>
-                        <div class="icon-earphone">
-                            <svg class="icon">
-                                <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
-                            </svg>
-                            <span>69万</span>
-                        </div>
+                        <a href="./recommendSongList.html">
+                            <img src="./images/3disc.jpg" alt="">
+                            <p>【华语】你说风里有诗句</p>
+                            <div class="icon-earphone">
+                                <svg class="icon">
+                                    <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
+                                </svg>
+                                <span>69万</span>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <img src="./images/7disc.jpg" alt="">
-                        <p>那些在你酩酊大醉后嘶吼出来的心事</p>
-                        <div class="icon-earphone">
-                            <svg class="icon">
-                                <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
-                            </svg>
-                            <span>1158.4万</span>
-                        </div>
+                        <a href="./recommendSongList.html">
+                            <img src="./images/7disc.jpg" alt="">
+                            <p>那些在你酩酊大醉后嘶吼出来的心事</p>
+                            <div class="icon-earphone">
+                                <svg class="icon">
+                                    <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
+                                </svg>
+                                <span>1158.4万</span>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <img src="./images/5disc.jpg" alt="">
-                        <p>有没有一首歌，让你瞬间热泪盈眶</p>
-                        <div class="icon-earphone">
-                            <svg class="icon">
-                                <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
-                            </svg>
-                            <span>5987.3万</span>
-                        </div>
+                        <a href="./recommendSongList.html">
+                            <img src="./images/5disc.jpg" alt="">
+                            <p>有没有一首歌，让你瞬间热泪盈眶</p>
+                            <div class="icon-earphone">
+                                <svg class="icon">
+                                    <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
+                                </svg>
+                                <span>5987.3万</span>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <img src="./images/6disc.jpg" alt="">
-                        <p>400首好听英文歌</p>
-                        <div class="icon-earphone">
-                            <svg class="icon">
-                                <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
-                            </svg>
-                            <span>3172万</span>
-                        </div>
+                        <a href="./recommendSongList.html">
+                            <img src="./images/6disc.jpg" alt="">
+                            <p>400首好听英文歌</p>
+                            <div class="icon-earphone">
+                                <svg class="icon">
+                                    <use xlink:href="#icon-shiliangzhinengduixiang1"></use>
+                                </svg>
+                                <span>3172万</span>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </section>
@@ -151,9 +163,36 @@
                 <a href="javascript:;">查看完整榜单 ></a>
             </div>
         </li>
-        <li>3</li>
+        <li id="searchPage" class="searchPage">
+            <form action="#">
+                <div class="search-input">
+                    <svg class="search-icon" aria-hidden="true">
+                        <use xlink:href="#icon-sousuo"></use>
+                    </svg>
+                    <input type="text" id="searchSong" class="search-song" placeholder="搜索歌曲、歌手、专辑">
+                </div>
+                <div id="output">
+                    <a href="javascript:;" id="outputLink">
+                        <svg class="search-icon2" aria-hidden="true">
+                            <use xlink:href="#icon-sousuo"></use>
+                        </svg>
+                        <span id="outputSpan"></span>
+                    </a>
+                </div>
+            </form>
+            <div class="hotSearch" id="hotSearch">
+                <h5>热门搜索</h5>
+                <ul id="hotSongsIcon" class="hotSongsIcon">
+                    <!--
+                        <li>
+                            <a href="./song.html?id='+cur.id+'">
+                        </li>
+                    -->
+                </ul>
+            </div>
+        </li>
     </ul>
-    <script src="//at.alicdn.com/t/font_409228_ir4bj4vjg6x39pb9.js"></script>
+    <script src="//at.alicdn.com/t/font_409228_xec7a5jappvte29.js"></script>
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
     <script src="js/index.js"></script>
 </body>

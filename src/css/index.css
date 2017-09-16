@@ -96,6 +96,11 @@ nav ul li span{
     display: block;
 }
 
+.tab-content a{
+    text-decoration: none;
+    color: #333;
+}
+
 
 /*section.recommend-playlist*/
 .recommend-playlist ul{
@@ -286,3 +291,106 @@ footer p{
     text-decoration: none;
 }
 
+
+/*searchPae*/
+.searchPage form{
+    content: '';
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    position: relative;
+}
+
+.searchPage .search-input{
+    width: 90vw;
+    height: 3rem;
+    position: relative;
+    border-radius: 30px;
+    background: #ebecec;
+    margin: 2vh auto;
+}
+
+.searchPage .search-icon,
+.search-icon2{
+    position: absolute;
+    left: 3vw;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80%;
+    width: 5vw;
+    fill: gray;
+}
+
+.searchPage .search-song{
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0.75rem 0 0.75rem 10vw;
+    width: 100%;
+}
+
+.searchPage .hotSearch{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.searchPage .hotSearch h5{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    font-weight: normal;
+    color: #666;
+}
+
+.searchPage .hotSearch .hotSongsIcon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.searchPage .hotSearch .hotSongsIcon li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.4rem;
+    display: block;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    margin: 3vw 3vw 3vw 0;
+}
+
+#output{
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: -6vh;
+    left: 10vw;
+    color: #333333;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    width: 90vw;
+    height: 3rem;
+}
+
+#outputLink{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#outputSpan{
+    font-size: 1.5rem;
+    display: block;
+    text-decoration: none;
+    color: #333333;
+
+}
+
+.search-icon2{
+    position: absolute;
+    left: -2.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: gray;
+    width: 1.8rem;
+    height: 1.8rem;
+}

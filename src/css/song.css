@@ -81,8 +81,9 @@ header{
     bottom: 0;
     margin: auto;
     width: 72vw;
-    animation: discRotate 20s infinite linear;
     z-index: 2;
+    animation: discRotate 20s infinite linear;
+    animation-play-state: paused;
 }
 
 .disc-img3{
@@ -98,6 +99,7 @@ header{
     border-radius: 50%;
     z-index: 3;
     animation: discRotate 20s infinite linear;
+    animation-play-state: paused;
 }
 
 .icon-wrapper{

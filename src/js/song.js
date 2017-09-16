@@ -5,20 +5,19 @@ $(function () {
     function playInit(url) {
         let audio = document.createElement('audio');
         audio.src = url;
-        audio.oncanplay = function () {
+        /*audio.oncanplay = function () {
             audio.play();  //出于保护用户的目的，在移动端禁止加载资源之后自动播放，巨坑。该属性只能在PC端有效，移动端无效。
         };
+        */
         $('.icon-pause').on('click',function () {
             audio.pause();
             $(this).removeClass('icon-show');
             $('.icon-play').addClass('icon-show');
             $('.disc-img2').css({
-                'animation-play-state': 'paused',
-                '-webkit-animation-play-state': 'paused'
+                'animation-play-state': 'paused'
             });
             $('.disc-img3').css({
-                'animation-play-state': 'paused',
-                '-webkit-animation-play-state': 'paused'
+                'animation-play-state': 'paused'
             });
             $('.song-pointer').addClass('song-pause');
         });
@@ -28,12 +27,10 @@ $(function () {
             $(this).removeClass('icon-show');
             $('.icon-pause').addClass('icon-show');
             $('.disc-img2').css({
-                'animation-play-state': 'running',
-                '-webkit-animation-play-state': 'running'
+                'animation-play-state': 'running'
             });
             $('.disc-img3').css({
-                'animation-play-state': 'running',
-                '-webkit-animation-play-state': 'running'
+                'animation-play-state': 'running'
             });
             $('.song-pointer').removeClass('song-pause');
         });
