@@ -96,7 +96,7 @@ nav ul li span{
     display: block;
 }
 
-.tab-content a{
+.tab-content li .recommend-playlist ul li > a{
     text-decoration: none;
     color: #333;
 }
@@ -205,13 +205,13 @@ footer{
     padding-bottom: 1rem;
 }
 
-footer svg{
+footer > svg{
     width: 80%;
     height: 14vw;
     margin: 15vw 0 5vw 0;
 }
 
-footer a{
+footer > a{
     display: block;
     text-decoration: none;
     color: #d33a31;
@@ -222,7 +222,7 @@ footer a{
     text-align: center;
 }
 
-footer p{
+footer > p{
     font-size: 1rem;
     color: #888888;
     transform: scale(.75);
