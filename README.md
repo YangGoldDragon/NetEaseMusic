@@ -1,6 +1,6 @@
 # NetEaseMusic
-## 技术栈：jQuery
-## 网易云音乐（移动端）
+## 项目名称：网易云音乐（移动端）
+## 技术栈：html5 + css3 + jQuery
 ## 预览地址：https://yanggolddragon.github.io/NetEaseMusic/src/index.html
 ## 二维码扫描：
 ![](./src/images/二维码.png)
